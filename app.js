@@ -23,3 +23,16 @@ alert ('Hello'+'World');
 let str2 = 'Hello';
 let str3 = 'World';
 alert (str2 + str3);
+
+
+let orange = 120;
+let apple = 120;
+
+// 条件1を満たすときは処理1、条件2を満たすときは処理2、どちらも満たさないときは処理3を実行	
+if(orange < apple){
+  alert('みかんの値段がりんごより安い');
+} else if(orange == apple){
+  alert('みかんとりんごが同じ値段');
+} else{
+  alert('みかんの値段がりんごより高い');
+}
