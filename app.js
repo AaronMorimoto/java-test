@@ -13,3 +13,13 @@ let str1 = 'JavaScriptを覚えよう';
 alert (str1);
 
 alert (3+4);
+alert (3-4);
+alert (3*4);
+alert (3/4);
+
+//文字列と文字列の結合
+alert ('Hello'+'World');
+
+let str2 = 'Hello';
+let str3 = 'World';
+alert (str2 + str3);
